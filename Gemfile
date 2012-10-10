@@ -1,0 +1,34 @@
+source 'http://rubygems.org'
+gem 'rails'
+gem 'mysql2'
+gem 'mysql'
+gem 'pg'
+gem 'json'
+group :assets do
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
+end
+gem 'jquery-rails'
+gem 'haml-rails'
+group :test do
+gem 'factory_girl_rails'
+gem 'rspec-rails'
+gem 'rspec'
+gem 'spork', '>=0.9.0.rc7'
+gem 'cucumber'
+gem 'cucumber-rails'
+gem 'annotate'
+gem 'rb-fsevent'
+gem 'guard-spork'
+gem 'guard-rspec'
+gem 'guard-cucumber'
+gem 'database_cleaner'
+gem 'capybara'
+gem 'ZenTest'
+gem 'growl'
+gem 'webrat'
+end 
+group :development do
+  gem 'rspec-rails'
+end
