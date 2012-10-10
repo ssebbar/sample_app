@@ -4,6 +4,7 @@ gem 'mysql2'
 gem 'mysql'
 gem 'pg'
 gem 'json'
+
 group :assets do
 gem 'sass-rails'
 gem 'coffee-rails'
@@ -17,7 +18,7 @@ gem 'rspec-rails'
 gem 'rspec'
 gem 'spork', '>=0.9.0.rc7'
 gem 'cucumber'
-gem 'cucumber-rails'
+gem 'cucumber-rails',:require => false
 gem 'annotate'
 gem 'rb-fsevent'
 gem 'guard-spork'
@@ -28,6 +29,7 @@ gem 'capybara'
 gem 'ZenTest'
 gem 'growl'
 gem 'webrat'
+
 end 
 group :development do
   gem 'rspec-rails'
